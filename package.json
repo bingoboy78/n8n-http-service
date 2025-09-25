@@ -1,0 +1,11 @@
+{
+  name n8n-http-service,
+  version 1.0.0,
+  main index.js,
+  scripts {
+    start n8n
+  },
+  dependencies {
+    n8n ^1.112.4
+  }
+}
